@@ -1,0 +1,220 @@
+{
+  "meta": {
+    "title": "Berke Mermit — Portfolio",
+    "description": "Software Engineering student. PHP, Flutter, JavaScript, and real project experience."
+  },
+  "nav": {
+    "about": "About",
+    "techSpecs": "Tech",
+    "projects": "Projects",
+    "contact": "Contact",
+    "menu": "Menu",
+    "close": "Close"
+  },
+  "hero": {
+    "sloganBefore": "Hey, I'm",
+    "name": "Berke",
+    "tagline": "I don't stare at screens for hours just to kill time — I use the right language and the most suitable tools to bring the right solution to life as fast as possible.",
+    "taglineExtra": "I never cut corners on the work: I get projects done without dragging them out. I write my code, deliver on time, and lean back.",
+    "cta": "See my work"
+  },
+  "badges": {
+    "openToWork": "Open to new projects",
+    "freelance": "Available for freelance",
+    "location": "Ankara, Turkey",
+    "busy": "Currently busy",
+    "studying": "Girne University — Software Engineering",
+    "openSource": "Contributing to open source"
+  },
+  "bento": {
+    "label": "Overview",
+    "title": "At a glance",
+    "featuredLabel": "Featured project",
+    "featuredTitle": "Esnaf Kefalet",
+    "featuredDesc": "Web-based CRUD admin panel for corporate credit and contact management — built during my internship.",
+    "liveLink": "Project details",
+    "techLabel": "Tech Stack",
+    "techStatus": {
+      "used": "In projects",
+      "learning": "Learning",
+      "academic": "Academic"
+    },
+    "techSummary": "{total} technologies — how each was learned is indicated below.",
+    "locationLabel": "Location & Time",
+    "experienceLabel": "Industry experience",
+    "experienceUnit": "Yr+",
+    "socialLabel": "Social",
+    "contactHint": "Contact",
+    "contactHintDesc": "Email or book a meeting"
+  },
+  "about": {
+    "label": "About",
+    "title": "A bit about me",
+    "subtitle": "Software Engineering student at Girne University · Ankara",
+    "paragraphs": [
+      "I'm studying software engineering and I write code not just for coursework, but to ship real products. In summer 2025 I interned at 4B Software on the Esnaf Kefalet project, building a corporate web panel — my first serious industry experience.",
+      "After the training period I spent three months interning and six months on the project in a real work environment — that's where I learned deadlines, team communication, and delivery culture.",
+      "These days I'm growing through personal projects and modern web tech. I'm open to new projects and collaborations."
+    ]
+  },
+  "techSpecs": {
+    "label": "Technical specs",
+    "title": "Technical specs",
+    "subtitle": "",
+    "stats": {
+      "cleanCode": {
+        "label": "Clean code",
+        "value": "Readable names, small functions, no unnecessary repetition.",
+        "comment": "// DRY · KISS · maintainable = true"
+      },
+      "internship": {
+        "label": "Internship & project",
+        "value": "4B Software — Esnaf Kefalet (2025)",
+        "comment": "// 3-month internship + 6-month project"
+      },
+      "problemSolving": {
+        "label": "Problem solving",
+        "value": "I first understand the problem, break it into smaller parts, then solve it.",
+        "comment": "// understand → decompose → solve"
+      },
+      "languages": {
+        "label": "Languages",
+        "value": "Turkish · English (B1)",
+        "comment": "// communication.languages = [\"tr\", \"en\"]"
+      },
+      "stack": {
+        "label": "Primary technology",
+        "value": "JavaScript · PHP · MySQL · Flutter · C++",
+        "comment": "// + Electron, CSS, SQL"
+      },
+      "education": {
+        "label": "Education",
+        "value": "Girne University — Software Engineering",
+        "comment": "// degree.status = \"inProgress\""
+      },
+      "learning": {
+        "label": "Currently learning",
+        "value": "Next.js · TypeScript · modern web architecture",
+        "comment": "// status: alwaysLearning = true"
+      },
+      "building": {
+        "label": "Currently building",
+        "value": "Kuponum — a mobile game with Flutter",
+        "comment": "// sideProject.status = \"inProgress\""
+      }
+    }
+  },
+  "projects": {
+    "label": "Projects",
+    "title": "Selected work",
+    "subtitle": "Real work from my internship and personal projects.",
+    "items": [
+      {
+        "id": "project-1",
+        "title": "Esnaf Kefalet",
+        "description": "Web-based admin panel for managing credits, contacts, and CRUD operations for Esnaf Kefalet. Built in a real work environment during my internship.",
+        "tags": ["PHP", "MySQL", "HTML", "CSS"],
+        "year": "2025"
+      },
+      {
+        "id": "project-2",
+        "title": "Smart Filing",
+        "description": "Desktop app that organizes folders and files on your computer according to rules you define.",
+        "tags": ["Electron", "JavaScript", "CSS", "HTML"],
+        "year": "2026"
+      },
+      {
+        "id": "project-3",
+        "title": "Kuponum",
+        "description": "Mobile prediction game with a Tips section, monthly leaderboard, and reward system.",
+        "tags": ["Flutter", "Dart"],
+        "year": "2026"
+      }
+    ],
+    "viewProject": "View"
+  },
+  "projectDetail": {
+    "back": "Back to projects",
+    "overview": "Overview",
+    "highlights": "Highlights",
+    "role": "Role",
+    "year": "Year",
+    "stack": "Stack",
+    "gallery": "Gallery",
+    "items": {
+      "esnaf-kefalet": {
+        "title": "Esnaf Kefalet",
+        "role": "Intern · Full-stack development",
+        "year": "2025",
+        "tags": ["PHP", "MySQL", "HTML", "CSS", "JavaScript"],
+        "paragraphs": [
+          "Web-based admin panel for managing credits, contacts, and CRUD operations for Esnaf Kefalet. Built in a real work environment with the team during my internship.",
+          "A corporate admin interface where users can track credit records, manage contact information, and run basic reporting workflows.",
+          "Work included database schema design, form validation, session handling, and a user-friendly panel UI."
+        ],
+        "highlights": [
+          "Corporate CRUD panel working with real client data",
+          "Server-side business logic with PHP and MySQL",
+          "Team communication and delivery discipline during internship + project phase"
+        ]
+      },
+      "akilli-dosyalama": {
+        "title": "Smart Filing",
+        "role": "Personal project · Desktop app",
+        "year": "2026",
+        "tags": ["Electron", "JavaScript", "CSS", "HTML"],
+        "paragraphs": [
+          "Desktop app that automatically organizes folders and files on your computer according to rules you define.",
+          "Users can set rules by extension, date, or keyword to move scattered files into target folders.",
+          "Built with Electron for a cross-platform desktop experience and a UI kept simple for daily use."
+        ],
+        "highlights": [
+          "Rule-based automatic file organization",
+          "Windows desktop app with Electron",
+          "Drag-and-drop, preview-focused user interface"
+        ]
+      },
+      "kuponum": {
+        "title": "Kuponum",
+        "role": "Personal project · Mobile game",
+        "year": "2026",
+        "tags": ["Flutter", "Dart"],
+        "paragraphs": [
+          "A mobile prediction game where you guess match results, with a duel system built around those predictions.",
+          "Players build coupons, make predictions, and earn points through duels. The in-app Tips section offers match hints to help with predictions. Top performers on the monthly leaderboard receive rewards.",
+          "Built with Flutter; prediction flow, Tips section, ranking system, and reward mechanics follow a gamification-first approach."
+        ],
+        "highlights": [
+          "Gamified experience with match predictions and duel mechanics",
+          "In-app Tips section for match prediction hints",
+          "Monthly leaderboard and reward system"
+        ]
+      }
+    }
+  },
+  "contact": {
+    "label": "Contact",
+    "title": "Let's talk",
+    "subtitle": "15-minute intro or project details — always happy to connect.",
+    "email": "berkemermit1665@gmail.com",
+    "copyEmail": "Copy email",
+    "copied": "Copied!",
+    "sendEmail": "Send email",
+    "phoneJokeComment": "// if inbox overload blocks email contact",
+    "phoneJokeElse": "you can call this number instead",
+    "phoneJokeAssign": "youCanCall",
+    "phoneArrowHint": "no reply?",
+    "calendarTitle": "Book a meeting",
+    "calendarDesc": "Schedule a 15-minute intro call.",
+    "calendarPlaceholder": "Calendar not connected yet.",
+    "social": {
+      "github": "GitHub",
+      "linkedin": "LinkedIn",
+      "instagram": "Instagram"
+    }
+  },
+  "footer": {
+    "text": "Berke Mermit · Software Engineer",
+    "backToTop": "Top"
+  }
+}

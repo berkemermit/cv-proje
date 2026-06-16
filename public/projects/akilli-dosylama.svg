@@ -1,0 +1,9 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="800" height="450" viewBox="0 0 800 450" fill="none">
+  <rect width="800" height="450" fill="#0a1628"/>
+  <rect x="80" y="60" width="280" height="200" rx="8" fill="#1e293b" stroke="#06b6d4" stroke-opacity="0.5"/>
+  <rect x="400" y="60" width="320" height="40" rx="6" fill="#1e293b"/>
+  <rect x="400" y="120" width="320" height="40" rx="6" fill="#1e293b"/>
+  <rect x="400" y="180" width="320" height="40" rx="6" fill="#1e293b"/>
+  <text x="400" y="320" text-anchor="middle" font-family="system-ui,sans-serif" font-size="32" font-weight="700" fill="#06b6d4">Ak1ll1 Dosyalama</text>
+  <text x="400" y="360" text-anchor="middle" font-family="system-ui,sans-serif" font-size="16" fill="#64748b">Electron � JavaScript</text>
+</svg>

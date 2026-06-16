@@ -1,36 +1,54 @@
-This is a [Next.js](https://nextjs.org) project bootstrapped with [`create-next-app`](https://nextjs.org/docs/app/api-reference/cli/create-next-app).
+# Berke — Portföy Sitesi
 
-## Getting Started
+Mavi ağırlıklı, mobil uyumlu, TR/EN dil destekli kişisel portföy.
 
-First, run the development server:
+## Hızlı başlangıç
 
 ```bash
+npm install
 npm run dev
-# or
-yarn dev
-# or
-pnpm dev
-# or
-bun dev
 ```
 
-Open [http://localhost:3000](http://localhost:3000) with your browser to see the result.
+Tarayıcıda: [http://localhost:3000](http://localhost:3000)
 
-You can start editing the page by modifying `app/page.tsx`. The page auto-updates as you edit the file.
+## İçeriği özelleştirme
 
-This project uses [`next/font`](https://nextjs.org/docs/app/building-your-application/optimizing/fonts) to automatically optimize and load [Geist](https://vercel.com/font), a new font family for Vercel.
+| Ne değişecek | Dosya |
+|--------------|-------|
+| Metinler (TR) | `messages/tr.json` |
+| Metinler (EN) | `messages/en.json` |
+| **Badge seçimi**, takvim, deneyim yılı, tech stack | `src/data/site.config.ts` |
+| Proje linkleri, sosyal medya | `src/data/site.config.ts` |
+| Fotoğrafınız | `public/profile.jpg` |
+| Öne çıkan proje görseli | `public/projects/featured.jpg` |
 
-## Learn More
+### Badge'leri değiştirmek
 
-To learn more about Next.js, take a look at the following resources:
+`src/data/site.config.ts` içinde `activeStatusBadges` dizisini düzenle:
 
-- [Next.js Documentation](https://nextjs.org/docs) - learn about Next.js features and API.
-- [Learn Next.js](https://nextjs.org/learn) - an interactive Next.js tutorial.
+```ts
+export const activeStatusBadges: StatusBadgeId[] = [
+  "openToWork",   // 🟢 Yeni projelere açık
+  "freelance",    // 💼 Freelance
+  "location",     // 📍 İstanbul (Remote)
+  // "busy",      // 🔴 Meşgul
+  // "studying",  // 📚 Öğreniyor
+];
+```
 
-You can check out [the Next.js GitHub repository](https://github.com/vercel/next.js) - your feedback and contributions are welcome!
+Metinler `messages/tr.json` → `badges` altında.
 
-## Deploy on Vercel
+### Cal.com / Calendly
 
-The easiest way to deploy your Next.js app is to use the [Vercel Platform](https://vercel.com/new?utm_medium=default-template&filter=next.js&utm_source=create-next-app&utm_campaign=create-next-app-readme) from the creators of Next.js.
+```ts
+export const calendarEmbedUrl = "https://cal.com/kullaniciadi/15min?embed=true";
+```
 
-Check out our [Next.js deployment documentation](https://nextjs.org/docs/app/building-your-application/deploying) for more details.
+## Canlıya alma (Vercel — ücretsiz)
+
+1. GitHub'a yükle
+2. [vercel.com](https://vercel.com) → repoyu bağla → Deploy
+
+## Teknolojiler (hepsi ücretsiz)
+
+Next.js · React · TypeScript · Tailwind · Framer Motion · next-intl

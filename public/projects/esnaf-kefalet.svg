@@ -1,0 +1,7 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="800" height="450" viewBox="0 0 800 450" fill="none">
+  <rect width="800" height="450" fill="#0a1628"/>
+  <rect x="40" y="40" width="720" height="370" rx="12" fill="#111d33" stroke="#3b82f6" stroke-opacity="0.4"/>
+  <text x="400" y="200" text-anchor="middle" font-family="system-ui,sans-serif" font-size="36" font-weight="700" fill="#3b82f6">Esnaf Kefalet</text>
+  <text x="400" y="250" text-anchor="middle" font-family="system-ui,sans-serif" font-size="16" fill="#64748b">PHP � MySQL � Y�netim Paneli</text>
+  <text x="400" y="380" text-anchor="middle" font-family="system-ui,sans-serif" font-size="13" fill="#475569">public/projects/esnaf-kefalet.jpg ile dei_tir</text>
+</svg>

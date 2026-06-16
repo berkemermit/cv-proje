@@ -1,0 +1,220 @@
+{
+  "meta": {
+    "title": "Berke Mermit — Portföy",
+    "description": "Yazılım Mühendisi. PHP, Flutter, JavaScript ve gerçek proje deneyimi."
+  },
+  "nav": {
+    "about": "Hakkımda",
+    "techSpecs": "Teknik",
+    "projects": "Projeler",
+    "contact": "İletişim",
+    "menu": "Menü",
+    "close": "Kapat"
+  },
+  "hero": {
+    "sloganBefore": "Selam, ben",
+    "name": "Berke",
+    "tagline": "Ekrana saatlerce bakıp vakit öldürmeyi değil, doğru dil ve en uygun araçlarla en doğru çözümü en kısa sürede hayata geçiririm.",
+    "taglineExtra": "İşin hakkını vermekten ödün vermeden, projeyi sakıza çevirmeden neticeye kavuştururum. Kodumu yazar, işi zamanında teslim edip arkama yaslanırım.",
+    "cta": "Projelerime bak"
+  },
+  "badges": {
+    "openToWork": "Şu an: Yeni projelere açık",
+    "freelance": "Freelance iş alıyor",
+    "location": "Ankara",
+    "busy": "Şu an meşgulüm",
+    "studying": "Girne Üniversitesi — Yazılım Mühendisliği",
+    "openSource": "Open source katkıda bulunuyorum"
+  },
+  "bento": {
+    "label": "Özet",
+    "title": "Tek bakışta",
+    "featuredLabel": "Öne çıkan proje",
+    "featuredTitle": "Esnaf Kefalet",
+    "featuredDesc": "Kurumsal kredi ve kişi yönetimi için web tabanlı CRUD paneli — staj sürecinde geliştirdiğim gerçek proje.",
+    "liveLink": "Proje detayı",
+    "techLabel": "Teknolojiler",
+    "techStatus": {
+      "used": "Projede",
+      "learning": "Öğreniyorum",
+      "academic": "Akademik"
+    },
+    "techSummary": "{total} teknoloji, nasıl öğrenildiği ile belirtilmiştir.",
+    "locationLabel": "Konum & Saat",
+    "experienceLabel": "Sektör deneyimi",
+    "experienceUnit": "Yıl+",
+    "socialLabel": "Sosyal",
+    "contactHint": "İletişim",
+    "contactHintDesc": "Mail veya toplantı ayarla"
+  },
+  "about": {
+    "label": "Hakkımda",
+    "title": "Kısaca ben",
+    "subtitle": "Girne Üniversitesi Yazılım Mühendisliği öğrencisi · Ankara",
+    "paragraphs": [
+      "Yazılım mühendisliği okuyorum; kodu sadece ders için değil, gerçek iş çıktısı üretmek için yazıyorum. 2025 yazında 4B Yazılım'da staj yaptım; Esnaf Kefalet projesinde kurumsal bir web paneli geliştirerek sektördeki ilk ciddi deneyimimi edindim.",
+      "Staj sürecinde eğitim kısmının ardından üç ay staj ve altı ay proje deneyimiyle gerçek bir iş ortamında çalıştım — deadline, ekip iletişimi ve teslim kültürünü orada öğrendim.",
+      "Şu an kişisel projelerim ve modern web teknolojileriyle kendimi geliştirmeye devam ediyorum. Yeni projelere ve iş birliklerine açığım."
+    ]
+  },
+  "techSpecs": {
+    "label": "Teknik özellikler",
+    "title": "Teknik özelliklerim",
+    "subtitle": "",
+    "stats": {
+      "cleanCode": {
+        "label": "Temiz kod",
+        "value": "Okunabilir isimler, küçük fonksiyonlar, gereksiz tekrar yok.",
+        "comment": "// DRY · KISS · maintainable = true"
+      },
+      "internship": {
+        "label": "Staj & proje",
+        "value": "4B Yazılım — Esnaf Kefalet (2025)",
+        "comment": "// 3 ay staj + 6 ay proje deneyimi"
+      },
+      "problemSolving": {
+        "label": "Problem çözme",
+        "value": "Problemi önce anlarım, küçük parçalara böler, sonra çözerim.",
+        "comment": "// understand → decompose → solve"
+      },
+      "languages": {
+        "label": "Diller",
+        "value": "Türkçe · İngilizce (B1)",
+        "comment": "// communication.languages = [\"tr\", \"en\"]"
+      },
+      "stack": {
+        "label": "Asıl teknoloji",
+        "value": "JavaScript · PHP · MySQL · Flutter · C++",
+        "comment": "// + Electron, CSS, SQL"
+      },
+      "education": {
+        "label": "Eğitim",
+        "value": "Girne Üniversitesi — Yazılım Mühendisliği",
+        "comment": "// degree.status = \"inProgress\""
+      },
+      "learning": {
+        "label": "Şu an ne öğreniyorum?",
+        "value": "Next.js · TypeScript · modern web mimarisi",
+        "comment": "// status: alwaysLearning = true"
+      },
+      "building": {
+        "label": "Şu an ne geliştiriyorum?",
+        "value": "Kuponum — Flutter ile mobil oyun",
+        "comment": "// sideProject.status = \"inProgress\""
+      }
+    }
+  },
+  "projects": {
+    "label": "Projeler",
+    "title": "Seçilmiş işler",
+    "subtitle": "Staj ve kişisel projelerimden gerçek çalışmalar.",
+    "items": [
+      {
+        "id": "project-1",
+        "title": "Esnaf Kefalet",
+        "description": "Esnaf Kefalet kurumuna bağlı kredi, kişi ve CRUD işlemlerinin yönetildiği web tabanlı yönetim paneli. Staj sürecinde gerçek iş ortamında geliştirildi.",
+        "tags": ["PHP", "MySQL", "HTML", "CSS"],
+        "year": "2025"
+      },
+      {
+        "id": "project-2",
+        "title": "Akıllı Dosyalama",
+        "description": "Bilgisayardaki klasör ve dosyaları belirlediğin kurallara göre düzenleyen masaüstü uygulaması.",
+        "tags": ["Electron", "JavaScript", "CSS", "HTML"],
+        "year": "2026"
+      },
+      {
+        "id": "project-3",
+        "title": "Kuponum",
+        "description": "Maç sonuçlarını tahmin ettiğin mobil oyun; Al Tüyo bölümü, aylık sıralama ve ödül sistemi içerir.",
+        "tags": ["Flutter", "Dart"],
+        "year": "2026"
+      }
+    ],
+    "viewProject": "İncele"
+  },
+  "projectDetail": {
+    "back": "Projelere dön",
+    "overview": "Genel bakış",
+    "highlights": "Öne çıkanlar",
+    "role": "Rol",
+    "year": "Yıl",
+    "stack": "Teknolojiler",
+    "gallery": "Görseller",
+    "items": {
+      "esnaf-kefalet": {
+        "title": "Esnaf Kefalet",
+        "role": "Stajyer · Full-stack geliştirme",
+        "year": "2025",
+        "tags": ["PHP", "MySQL", "HTML", "CSS", "JavaScript"],
+        "paragraphs": [
+          "Esnaf Kefalet kurumuna bağlı kredi, kişi ve CRUD işlemlerinin yönetildiği web tabanlı yönetim paneli. Staj sürecinde gerçek bir iş ortamında, ekip içinde geliştirildi.",
+          "Kurumsal kullanıcıların kredi kayıtlarını takip edebildiği, kişi bilgilerini yönetebildiği ve temel raporlama işlemlerini gerçekleştirebildiği bir admin arayüzü tasarlandı.",
+          "Proje boyunca veritabanı şeması tasarımı, form validasyonları, oturum yönetimi ve kullanıcı dostu panel arayüzü üzerinde çalışıldı."
+        ],
+        "highlights": [
+          "Gerçek müşteri verisiyle çalışan kurumsal CRUD paneli",
+          "PHP ve MySQL ile sunucu tarafı iş mantığı",
+          "Staj + proje sürecinde ekip iletişimi ve teslim disiplini"
+        ]
+      },
+      "akilli-dosyalama": {
+        "title": "Akıllı Dosyalama",
+        "role": "Kişisel proje · Masaüstü uygulama",
+        "year": "2026",
+        "tags": ["Electron", "JavaScript", "CSS", "HTML"],
+        "paragraphs": [
+          "Bilgisayardaki klasör ve dosyaları belirlediğin kurallara göre otomatik düzenleyen masaüstü uygulaması.",
+          "Kullanıcı uzantı, tarih veya anahtar kelimeye göre kurallar tanımlayarak dağınık dosyaları hedef klasörlere taşıyabilir.",
+          "Electron ile çapraz platform masaüstü deneyimi sunulur; arayüz sade ve günlük kullanıma uygun tutuldu."
+        ],
+        "highlights": [
+          "Kural tabanlı otomatik dosya düzenleme",
+          "Electron ile Windows masaüstü uygulaması",
+          "Sürükle-bırak ve önizleme odaklı kullanıcı arayüzü"
+        ]
+      },
+      "kuponum": {
+        "title": "Kuponum",
+        "role": "Kişisel proje · Mobil oyun",
+        "year": "2026",
+        "tags": ["Flutter", "Dart"],
+        "paragraphs": [
+          "Maç sonuçlarını tahmin ettiğin, tahminlere dayalı düello sistemi içeren mobil tahmin oyunu.",
+          "Oyuncular kuponlarını oluşturur, tahminlerini yapar ve düelloya girerek puan toplar. Uygulama içindeki Al Tüyo bölümünden maçlara dair ipuçlarına ulaşabilirler. Aylık sıralama tablosunda üst sıralara çıkanlara ödül verilir.",
+          "Flutter ile geliştirildi; tahmin akışı, Al Tüyo, sıralama sistemi ve ödül mekanizması oyunlaştırma mantığına göre kurgulandı."
+        ],
+        "highlights": [
+          "Maç tahmini ve düello mekaniğiyle oyunlaştırılmış deneyim",
+          "Al Tüyo — uygulama içi tahmin ipucu bölümü",
+          "Aylık sıralama tablosu ve ödül sistemi"
+        ]
+      }
+    }
+  },
+  "contact": {
+    "label": "İletişim",
+    "title": "Konuşalım",
+    "subtitle": "15 dakikalık tanışma veya proje detayı — kapı her zaman açık.",
+    "email": "berkemermit1665@gmail.com",
+    "copyEmail": "E-postayı kopyala",
+    "copied": "Kopyalandı!",
+    "sendEmail": "E-posta gönder",
+    "phoneJokeComment": "// mail yoğunluğundan iletişime geçemiyorsak",
+    "phoneJokeElse": "bu numarayı arayabilirsiniz",
+    "phoneJokeAssign": "arayabilirsiniz",
+    "phoneArrowHint": "cevap gelmezse",
+    "calendarTitle": "Takvimden randevu al",
+    "calendarDesc": "15 dakikalık tanışma görüşmesi ayarlayın.",
+    "calendarPlaceholder": "Takvim henüz bağlı değil.",
+    "social": {
+      "github": "GitHub",
+      "linkedin": "LinkedIn",
+      "instagram": "Instagram"
+    }
+  },
+  "footer": {
+    "text": "Berke Mermit · Yazılım Mühendisi",
+    "backToTop": "Yukarı"
+  }
+}

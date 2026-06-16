@@ -1,0 +1,8 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="800" height="450" viewBox="0 0 800 450" fill="none">
+  <rect width="800" height="450" fill="#0a1628"/>
+  <rect x="300" y="50" width="200" height="360" rx="24" fill="#111d33" stroke="#38bdf8" stroke-opacity="0.5"/>
+  <rect x="320" y="100" width="160" height="120" rx="12" fill="#1e3a5f"/>
+  <text x="400" y="170" text-anchor="middle" font-family="system-ui,sans-serif" font-size="28" font-weight="700" fill="#38bdf8">VS</text>
+  <text x="400" y="400" text-anchor="middle" font-family="system-ui,sans-serif" font-size="32" font-weight="700" fill="#38bdf8">Kuponum</text>
+  <text x="400" y="430" text-anchor="middle" font-family="system-ui,sans-serif" font-size="16" fill="#64748b">Flutter</text>
+</svg>
