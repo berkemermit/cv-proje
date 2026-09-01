@@ -14,8 +14,8 @@
   "hero": {
     "sloganBefore": "Selam, ben",
     "name": "Berke",
-    "tagline": "Ekrana saatlerce bakıp vakit öldürmeyi değil, doğru dil ve en uygun araçlarla en doğru çözümü en kısa sürede hayata geçiririm.",
-    "taglineExtra": "İşin hakkını vermekten ödün vermeden, projeyi sakıza çevirmeden neticeye kavuştururum. Kodumu yazar, işi zamanında teslim edip arkama yaslanırım.",
+    "tagline": "Problemi anlar, doğru dili ve aracı seçer, çözümü hızlıca hayata geçiririm.",
+    "taglineExtra": "Temiz ve okunabilir kod yazar, işi gereksiz uzatmadan sonuca ulaştırırım. Zamanında teslim ederim.",
     "cta": "Projelerime bak"
   },
   "badges": {
@@ -52,9 +52,9 @@
     "title": "Kısaca ben",
     "subtitle": "Girne Üniversitesi Yazılım Mühendisliği öğrencisi · Ankara",
     "paragraphs": [
-      "Yazılım mühendisliği okuyorum; kodu sadece ders için değil, gerçek iş çıktısı üretmek için yazıyorum. 2025 yazında 4B Yazılım'da staj yaptım; Esnaf Kefalet projesinde kurumsal bir web paneli geliştirerek sektördeki ilk ciddi deneyimimi edindim.",
-      "Staj sürecinde eğitim kısmının ardından üç ay staj ve altı ay proje deneyimiyle gerçek bir iş ortamında çalıştım — deadline, ekip iletişimi ve teslim kültürünü orada öğrendim.",
-      "Şu an kişisel projelerim ve modern web teknolojileriyle kendimi geliştirmeye devam ediyorum. Yeni projelere ve iş birliklerine açığım."
+      "Yazılım mühendisliği okuyorum; kodu sadece ders için değil, gerçek iş çıktısı üretmek için yazıyorum. 2025 yazında 4B Yazılım'da staj yaptım; Esnaf Kefalet projesinde PHP ve MySQL ile kurumsal bir web paneli geliştirdim.",
+      "T.C. Sanayi ve Teknoloji Bakanlığı'nda tamamladığım yazılım stajımda backend sistemleri ve veritabanı yönetimi üzerine pratik deneyim kazandım. Süreç boyunca Java ve Spring Boot ile API geliştirme, PostgreSQL ile veri yönetimi ve Docker gibi araçların kullanımını kurumsal projeler üzerinden doğrudan sahada öğrendim.",
+      "Her iki stajda da gerçek iş ortamında çalıştım — deadline, ekip iletişimi ve teslim kültürünü orada edindim. Şu an kişisel projelerim ve modern web teknolojileriyle kendimi geliştirmeye devam ediyorum. Yeni projelere ve iş birliklerine açığım."
     ]
   },
   "techSpecs": {
@@ -69,8 +69,8 @@
       },
       "internship": {
         "label": "Staj & proje",
-        "value": "4B Yazılım — Esnaf Kefalet (2025)",
-        "comment": "// 3 ay staj + 6 ay proje deneyimi"
+        "value": "4B Yazılım · PHP (2025) · Bakanlık · Spring Boot (2026)",
+        "comment": "// web paneli + backend mimarisi"
       },
       "problemSolving": {
         "label": "Problem çözme",
@@ -84,8 +84,8 @@
       },
       "stack": {
         "label": "Asıl teknoloji",
-        "value": "JavaScript · PHP · MySQL · Flutter · C++",
-        "comment": "// + Electron, CSS, SQL"
+        "value": "Java · Spring Boot · JavaScript · PHP · PostgreSQL · Flutter",
+        "comment": "// + MySQL, JPA, Docker"
       },
       "education": {
         "label": "Eğitim",
@@ -196,14 +196,16 @@
     "label": "İletişim",
     "title": "Konuşalım",
     "subtitle": "15 dakikalık tanışma veya proje detayı — kapı her zaman açık.",
-    "email": "berkemermit1665@gmail.com",
+    "email": "berkemermitt@gmail.com",
     "copyEmail": "E-postayı kopyala",
     "copied": "Kopyalandı!",
     "sendEmail": "E-posta gönder",
+    "phoneFallbackTitle": "Cevap gelmezse",
+    "phoneFallbackFile": "contact.go",
+    "phoneCodeComment1": "önce mail dene",
     "phoneJokeComment": "// mail yoğunluğundan iletişime geçemiyorsak",
     "phoneJokeElse": "bu numarayı arayabilirsiniz",
     "phoneJokeAssign": "arayabilirsiniz",
-    "phoneArrowHint": "cevap gelmezse",
     "calendarTitle": "Takvimden randevu al",
     "calendarDesc": "15 dakikalık tanışma görüşmesi ayarlayın.",
     "calendarPlaceholder": "Takvim henüz bağlı değil.",

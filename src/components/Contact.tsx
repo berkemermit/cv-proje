@@ -61,7 +61,12 @@ export function Contact() {
             viewport={{ once: true }}
             className="rounded-2xl border border-border bg-white/[0.02] p-6 sm:p-8"
           >
-            <p className="text-sm text-muted">{email}</p>
+            <a
+              href={`mailto:${email}`}
+              className="inline-block text-base font-medium text-[var(--accent-contact)] underline-offset-4 transition-colors hover:text-[var(--accent-contact)]/80 hover:underline"
+            >
+              {email}
+            </a>
 
             <div className="mt-4 flex flex-col gap-4 sm:flex-row sm:flex-wrap sm:items-start">
               <button
@@ -76,78 +81,98 @@ export function Contact() {
                 {copied ? t("copied") : t("copyEmail")}
               </button>
 
-              <div className="flex flex-col items-start">
-                <a
-                  href={`mailto:${email}`}
-                  className="inline-flex min-h-[3rem] items-center justify-center rounded-full border border-border px-6 text-sm font-medium transition-colors hover:border-[var(--accent-contact)]/40 hover:text-[var(--accent-contact)]"
-                >
-                  {t("sendEmail")}
-                </a>
-
-                <div
-                  className="mt-3 flex max-w-full flex-wrap items-end gap-2 pl-0 sm:pl-4"
-                  aria-hidden="true"
-                >
-                  <svg
-                    width="46"
-                    height="58"
-                    viewBox="0 0 40 52"
-                    fill="none"
-                    className="shrink-0 text-[var(--accent-contact)]"
-                  >
-                    <path
-                      d="M4 4V36C4 40.4183 7.58172 44 12 44H36"
-                      stroke="currentColor"
-                      strokeWidth="2"
-                      strokeLinecap="round"
-                    />
-                    <path
-                      d="M28 36L36 44L28 52"
-                      stroke="currentColor"
-                      strokeWidth="2"
-                      strokeLinecap="round"
-                      strokeLinejoin="round"
-                    />
-                  </svg>
-                  <span className="mb-1 font-mono text-sm text-muted">
-                    {t("phoneArrowHint")} →
-                  </span>
-                </div>
-              </div>
+              <a
+                href={`mailto:${email}`}
+                className="inline-flex min-h-[3rem] items-center justify-center rounded-full border border-border px-6 text-sm font-medium transition-colors hover:border-[var(--accent-contact)]/40 hover:text-[var(--accent-contact)]"
+              >
+                {t("sendEmail")}
+              </a>
             </div>
 
-            <div className="mt-4 overflow-hidden rounded-xl border border-border bg-[#0d1117] p-4 font-mono text-xs leading-relaxed break-words [overflow-wrap:anywhere] sm:mt-2 sm:p-5 sm:text-sm">
-              <p>
-                <span className="text-[#ff7b72]">if</span>{" "}
-                <span className="text-[#f0883e]">(</span>
-                <span className="text-[#a5d6ff]">mailYoğunluğu</span>
-                <span className="text-[#f0883e]">)</span>{" "}
-                <span className="text-fg">{"{"}</span>
-              </p>
-              <p className="pl-4 text-[#8b949e]">{t("phoneJokeComment")}</p>
-              <p>
-                <span className="text-fg">{"}"}</span>{" "}
-                <span className="text-[#ff7b72]">else</span>{" "}
-                <span className="text-fg">{"{"}</span>
-              </p>
-              <p className="pl-4">
-                <span className="text-[#8b949e]">{"// "}</span>
-                {t("phoneJokeElse")}
-              </p>
-              <p className="pl-4">
-                <span className="text-[#79c0ff]">{t("phoneJokeAssign")}</span>{" "}
-                <span className="text-fg">:=</span>{" "}
-                <a
-                  href={`tel:${phoneTel}`}
-                  className="text-[#a5d6ff] transition-colors hover:text-[var(--accent-contact)]"
-                >
-                  &quot;{phoneNumber}&quot;
-                </a>
-                <span className="text-fg">;</span>
-              </p>
-              <p>
-                <span className="text-fg">{"}"}</span>
-              </p>
+            <div className="mt-8 overflow-hidden rounded-2xl border border-[var(--accent-contact)]/35 bg-[#0d1117] shadow-lg shadow-[var(--accent-contact)]/10">
+              <div className="flex flex-wrap items-center gap-3 border-b border-white/10 bg-[#161b22] px-4 py-4 sm:px-5 sm:py-5">
+                <div className="flex items-center gap-1.5">
+                  <span className="h-3 w-3 rounded-full bg-[#ff5f57]" />
+                  <span className="h-3 w-3 rounded-full bg-[#febc2e]" />
+                  <span className="h-3 w-3 rounded-full bg-[#28c804]" />
+                </div>
+                <span className="font-display text-base font-bold text-[var(--accent-contact)] sm:text-xl">
+                  {t("phoneFallbackTitle")}
+                </span>
+                <span className="font-mono text-xs text-muted sm:ml-auto sm:text-sm">
+                  {t("phoneFallbackFile")}
+                </span>
+              </div>
+
+              <div className="space-y-1.5 p-5 font-mono text-sm leading-7 break-words [overflow-wrap:anywhere] sm:p-6 sm:text-base sm:leading-8">
+                <p>
+                  <span className="text-[#ff7b72]">func</span>{" "}
+                  <span className="text-[#d2a8ff]">iletisim</span>
+                  <span className="text-[#f0883e]">()</span>{" "}
+                  <span className="text-fg">{"{"}</span>
+                </p>
+                <p className="pl-4">
+                  <span className="text-[#79c0ff]">email</span>{" "}
+                  <span className="text-fg">:=</span>{" "}
+                  <span className="text-[#a5d6ff]">&quot;{email}&quot;</span>
+                  <span className="text-fg">;</span>
+                </p>
+                <p className="pl-4">
+                  <span className="text-[#ff7b72]">if</span>{" "}
+                  <span className="text-[#f0883e]">!</span>
+                  <span className="text-[#a5d6ff]">mailYoğunluğu</span>{" "}
+                  <span className="text-[#ff7b72]">&amp;&amp;</span>{" "}
+                  <span className="text-[#a5d6ff]">cevapGeldi</span>{" "}
+                  <span className="text-fg">{"{"}</span>
+                </p>
+                <p className="pl-8 text-base text-[#c9d1d9] sm:text-lg">
+                  {"// "}
+                  {t("phoneCodeComment1")}
+                </p>
+                <p className="pl-8">
+                  <span className="text-[#d2a8ff]">emailGonder</span>
+                  <span className="text-[#f0883e]">(</span>
+                  <span className="text-[#79c0ff]">email</span>
+                  <span className="text-[#f0883e]">)</span>
+                  <span className="text-fg">;</span>
+                </p>
+                <p className="pl-4">
+                  <span className="text-fg">{"}"}</span>{" "}
+                  <span className="text-[#ff7b72]">else</span>{" "}
+                  <span className="text-fg">{"{"}</span>
+                </p>
+                <p className="pl-8 text-base text-[#c9d1d9] sm:text-lg">
+                  {t("phoneJokeComment")}
+                </p>
+                <p className="pl-8 text-base sm:text-lg">
+                  <span className="text-[#79c0ff]">telefon</span>{" "}
+                  <span className="text-fg">:=</span>{" "}
+                  <a
+                    href={`tel:${phoneTel}`}
+                    className="text-xl font-bold text-[var(--accent-contact)] underline-offset-4 transition-colors hover:text-[var(--accent-contact)]/80 hover:underline sm:text-2xl"
+                  >
+                    &quot;{phoneNumber}&quot;
+                  </a>
+                  <span className="text-fg">;</span>
+                </p>
+                <p className="pl-8 text-[#8b949e] sm:text-base">
+                  {"// "}
+                  {t("phoneJokeElse")}
+                </p>
+                <p className="pl-8">
+                  <span className="text-[#d2a8ff]">{t("phoneJokeAssign")}</span>
+                  <span className="text-[#f0883e]">(</span>
+                  <span className="text-[#79c0ff]">telefon</span>
+                  <span className="text-[#f0883e]">)</span>
+                  <span className="text-fg">;</span>
+                </p>
+                <p className="pl-4">
+                  <span className="text-fg">{"}"}</span>
+                </p>
+                <p>
+                  <span className="text-fg">{"}"}</span>
+                </p>
+              </div>
             </div>
 
             <SocialLinks

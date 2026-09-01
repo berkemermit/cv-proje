@@ -14,8 +14,8 @@
   "hero": {
     "sloganBefore": "Hey, I'm",
     "name": "Berke",
-    "tagline": "I don't stare at screens for hours just to kill time — I use the right language and the most suitable tools to bring the right solution to life as fast as possible.",
-    "taglineExtra": "I never cut corners on the work: I get projects done without dragging them out. I write my code, deliver on time, and lean back.",
+    "tagline": "I understand the problem, pick the right language and tools, and ship the solution fast.",
+    "taglineExtra": "I write clean, readable code and get things done without unnecessary delay. I deliver on time.",
     "cta": "See my work"
   },
   "badges": {
@@ -52,9 +52,9 @@
     "title": "A bit about me",
     "subtitle": "Software Engineering student at Girne University · Ankara",
     "paragraphs": [
-      "I'm studying software engineering and I write code not just for coursework, but to ship real products. In summer 2025 I interned at 4B Software on the Esnaf Kefalet project, building a corporate web panel — my first serious industry experience.",
-      "After the training period I spent three months interning and six months on the project in a real work environment — that's where I learned deadlines, team communication, and delivery culture.",
-      "These days I'm growing through personal projects and modern web tech. I'm open to new projects and collaborations."
+      "I'm studying software engineering and I write code to ship real products, not just for coursework. In summer 2025 I interned at 4B Software and built the corporate web panel for the Esnaf Kefalet project using PHP and MySQL.",
+      "During my software internship at the Ministry of Industry and Technology of Türkiye, I gained hands-on experience in backend systems and database management. Throughout the process I learned API development with Java and Spring Boot, data management with PostgreSQL, and tools like Docker — directly in the field, on real enterprise projects.",
+      "Both internships taught me deadlines, team communication, and delivery culture in real work environments. These days I'm growing through personal projects and modern web tech. I'm open to new projects and collaborations."
     ]
   },
   "techSpecs": {
@@ -69,8 +69,8 @@
       },
       "internship": {
         "label": "Internship & project",
-        "value": "4B Software — Esnaf Kefalet (2025)",
-        "comment": "// 3-month internship + 6-month project"
+        "value": "4B Software · PHP (2025) · Ministry · Spring Boot (2026)",
+        "comment": "// web panel + backend architecture"
       },
       "problemSolving": {
         "label": "Problem solving",
@@ -84,8 +84,8 @@
       },
       "stack": {
         "label": "Primary technology",
-        "value": "JavaScript · PHP · MySQL · Flutter · C++",
-        "comment": "// + Electron, CSS, SQL"
+        "value": "Java · Spring Boot · JavaScript · PHP · PostgreSQL · Flutter",
+        "comment": "// + MySQL, JPA, Docker"
       },
       "education": {
         "label": "Education",
@@ -196,14 +196,16 @@
     "label": "Contact",
     "title": "Let's talk",
     "subtitle": "15-minute intro or project details — always happy to connect.",
-    "email": "berkemermit1665@gmail.com",
+    "email": "berkemermitt@gmail.com",
     "copyEmail": "Copy email",
     "copied": "Copied!",
     "sendEmail": "Send email",
+    "phoneFallbackTitle": "No reply?",
+    "phoneFallbackFile": "contact.go",
+    "phoneCodeComment1": "try email first",
     "phoneJokeComment": "// if inbox overload blocks email contact",
     "phoneJokeElse": "you can call this number instead",
-    "phoneJokeAssign": "youCanCall",
-    "phoneArrowHint": "no reply?",
+    "phoneJokeAssign": "callMe",
     "calendarTitle": "Book a meeting",
     "calendarDesc": "Schedule a 15-minute intro call.",
     "calendarPlaceholder": "Calendar not connected yet.",
