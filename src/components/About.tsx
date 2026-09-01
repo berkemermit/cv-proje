@@ -12,7 +12,7 @@ export function About() {
   return (
     <section
       id="about"
-      className="relative scroll-mt-20 border-t border-border px-4 py-20 sm:px-6 sm:py-28 lg:px-8"
+      className="relative scroll-mt-20 overflow-x-clip border-t border-border px-4 py-20 sm:px-6 sm:py-28 lg:px-8"
     >
       <div
         className="pointer-events-none absolute -left-20 top-1/4 h-72 w-72 rounded-full opacity-10 blur-[100px]"

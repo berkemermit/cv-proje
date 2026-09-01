@@ -39,7 +39,7 @@ export function BentoGrid() {
   return (
     <section
       id="bento"
-      className="relative scroll-mt-20 border-t border-border px-4 py-20 sm:px-6 sm:py-28 lg:px-8"
+      className="relative scroll-mt-20 overflow-x-clip border-t border-border px-4 py-20 sm:px-6 sm:py-28 lg:px-8"
     >
       <div
         className="pointer-events-none absolute left-1/4 top-0 h-64 w-64 rounded-full opacity-10 blur-[100px]"
@@ -54,13 +54,13 @@ export function BentoGrid() {
           accent={accentColors.bento}
         />
 
-        <div className="grid grid-cols-1 gap-3 sm:grid-cols-2 sm:gap-4 lg:grid-cols-4 lg:grid-rows-[auto_auto]">
+        <div className="grid min-w-0 grid-cols-1 gap-3 sm:grid-cols-2 sm:gap-4 lg:grid-cols-4 lg:grid-rows-[auto_auto]">
           {/* Kutu 1 — Öne çıkan proje (büyük) */}
           <motion.div
             initial={{ opacity: 0, y: 16 }}
             whileInView={{ opacity: 1, y: 0 }}
             viewport={{ once: true }}
-            className="sm:col-span-2 lg:col-span-2 lg:row-span-2"
+            className="min-w-0 sm:col-span-2 lg:col-span-2 lg:row-span-2"
           >
             <BentoCard className="flex h-full min-h-[320px] flex-col overflow-hidden p-0 sm:min-h-[380px]">
               <div className="relative h-52 w-full bg-[#0a0a0a] sm:h-60 lg:h-72">
@@ -103,7 +103,7 @@ export function BentoGrid() {
             whileInView={{ opacity: 1, y: 0 }}
             viewport={{ once: true }}
             transition={{ delay: 0.05 }}
-            className="sm:col-span-2 lg:col-span-1 lg:row-span-2"
+            className="min-w-0 sm:col-span-2 lg:col-span-1 lg:row-span-2"
           >
             <BentoCard className="flex h-full min-h-[280px] flex-col lg:min-h-0">
               <p
@@ -122,7 +122,7 @@ export function BentoGrid() {
             whileInView={{ opacity: 1, y: 0 }}
             viewport={{ once: true }}
             transition={{ delay: 0.1 }}
-            className="flex flex-col lg:col-span-1"
+            className="flex min-w-0 flex-col lg:col-span-1"
           >
             <BentoCard className="flex h-full min-h-[160px] flex-1 flex-col">
               <p
@@ -141,7 +141,7 @@ export function BentoGrid() {
             whileInView={{ opacity: 1, y: 0 }}
             viewport={{ once: true }}
             transition={{ delay: 0.15 }}
-            className="lg:col-span-1"
+            className="min-w-0 lg:col-span-1"
           >
             <BentoCard className="flex h-full min-h-[160px] flex-col justify-center">
               <p
@@ -165,7 +165,7 @@ export function BentoGrid() {
             whileInView={{ opacity: 1, y: 0 }}
             viewport={{ once: true }}
             transition={{ delay: 0.2 }}
-            className="sm:col-span-2 lg:col-span-2"
+            className="min-w-0 sm:col-span-2 lg:col-span-2"
           >
             <BentoCard className="h-full">
               <p
@@ -192,7 +192,7 @@ export function BentoGrid() {
             whileInView={{ opacity: 1, y: 0 }}
             viewport={{ once: true }}
             transition={{ delay: 0.25 }}
-            className="sm:col-span-2 lg:col-span-2"
+            className="min-w-0 sm:col-span-2 lg:col-span-2"
           >
             <BentoCard className="flex h-full min-h-[160px] flex-col justify-between">
               <p

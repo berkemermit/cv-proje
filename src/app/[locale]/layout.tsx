@@ -61,7 +61,7 @@ export default async function LocaleLayout({
 
   return (
     <html lang={locale} className={`${syne.variable} ${dmSans.variable} h-full`}>
-      <body className="min-h-full bg-bg text-fg font-body antialiased">
+      <body className="min-h-full overflow-x-clip bg-bg text-fg font-body antialiased">
         <NextIntlClientProvider messages={messages}>
           {children}
         </NextIntlClientProvider>

@@ -19,7 +19,7 @@ export default async function HomePage({
   return (
     <>
       <Header />
-      <main>
+      <main className="overflow-x-clip">
         <Hero />
         <BentoGrid />
         <About />

@@ -26,7 +26,7 @@ export function ProjectDetail({ slug, projectId }: ProjectDetailProps) {
   const gallery = meta?.gallery ?? [];
 
   return (
-    <article className="relative px-4 pb-20 pt-28 sm:px-6 sm:pb-28 sm:pt-32 lg:px-8">
+    <article className="relative overflow-x-clip px-4 pb-20 pt-28 sm:px-6 sm:pb-28 sm:pt-32 lg:px-8">
       <div
         className="pointer-events-none absolute right-0 top-1/4 h-72 w-72 rounded-full opacity-10 blur-[120px]"
         style={{ background: accentColors.projects }}

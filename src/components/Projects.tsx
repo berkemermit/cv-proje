@@ -19,7 +19,7 @@ export function Projects() {
   return (
     <section
       id="projects"
-      className="relative scroll-mt-20 px-4 py-20 sm:px-6 sm:py-28 lg:px-8"
+      className="relative scroll-mt-20 overflow-x-clip px-4 py-20 sm:px-6 sm:py-28 lg:px-8"
     >
       <div
         className="pointer-events-none absolute right-0 top-1/4 h-64 w-64 rounded-full opacity-10 blur-[100px]"
@@ -48,7 +48,7 @@ export function Projects() {
                 className="group block rounded-2xl border border-border bg-white/[0.02] p-5 transition-all hover:border-[var(--accent-projects)]/30 hover:bg-white/[0.04] sm:p-7"
               >
                 <div className="flex flex-col gap-4 sm:flex-row sm:items-start sm:justify-between">
-                  <div className="flex-1">
+                  <div className="min-w-0 flex-1">
                     <div className="flex flex-wrap items-center gap-3">
                       <h3 className="font-display text-xl font-bold transition-colors group-hover:text-[var(--accent-projects)] sm:text-2xl">
                         {project.title}

@@ -14,7 +14,7 @@ export function StatusBadges() {
       {activeStatusBadges.map((id: StatusBadgeId) => (
         <span
           key={id}
-          className="inline-flex min-h-[2rem] items-center rounded-full border border-border bg-white/[0.03] px-3 py-1 text-xs font-medium text-fg sm:text-sm"
+          className="inline-flex min-h-[2rem] max-w-full items-center rounded-full border border-border bg-white/[0.03] px-3 py-1 text-xs font-medium text-fg sm:text-sm"
         >
           {t(id)}
         </span>

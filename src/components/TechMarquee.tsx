@@ -38,7 +38,7 @@ export function TechMarquee() {
 
   return (
     <div className="flex flex-col">
-      <div className="grid grid-cols-2 gap-2.5">
+      <div className="grid min-w-0 grid-cols-2 gap-2.5">
         {techStack.map((tech) => (
           <div
             key={tech.name}

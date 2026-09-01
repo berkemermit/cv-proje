@@ -28,7 +28,7 @@ export function Hero() {
           transition={{ duration: 0.6 }}
           className="min-w-0"
         >
-          <h1 className="font-display text-[clamp(2rem,5vw,3.25rem)] font-bold leading-tight tracking-tight">
+          <h1 className="break-words font-display text-[clamp(2rem,5vw,3.25rem)] font-bold leading-tight tracking-tight">
             {t("sloganBefore")}{" "}
             <span className="text-[var(--accent-hero)]">{t("name")}</span>
             <span className="text-[var(--accent-hero)]">.</span>
@@ -63,7 +63,7 @@ export function Hero() {
           initial={{ opacity: 0, scale: 0.95 }}
           animate={{ opacity: 1, scale: 1 }}
           transition={{ duration: 0.6, delay: 0.15 }}
-          className="relative w-full"
+          className="relative w-full min-w-0"
         >
           <div
             className="absolute -inset-3 rounded-[2rem] opacity-40 blur-2xl sm:-inset-4"

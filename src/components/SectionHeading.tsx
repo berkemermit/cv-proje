@@ -12,14 +12,14 @@ export function SectionHeading({
   accent,
 }: SectionHeadingProps) {
   return (
-    <div className="mb-10 sm:mb-14">
+    <div className="mb-10 min-w-0 sm:mb-14">
       <p
-        className="mb-2 text-xs font-semibold uppercase tracking-[0.25em] sm:text-sm"
+        className="mb-2 text-xs font-semibold uppercase tracking-wider sm:text-sm sm:tracking-[0.25em]"
         style={{ color: accent }}
       >
         {label}
       </p>
-      <h2 className="font-display text-3xl font-bold tracking-tight sm:text-4xl lg:text-5xl">
+      <h2 className="break-words font-display text-3xl font-bold tracking-tight sm:text-4xl lg:text-5xl">
         {title}
       </h2>
       {subtitle ? (

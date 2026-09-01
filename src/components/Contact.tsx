@@ -38,7 +38,7 @@ export function Contact() {
   return (
     <section
       id="contact"
-      className="relative scroll-mt-20 border-t border-border px-4 py-20 sm:px-6 sm:py-28 lg:px-8"
+      className="relative scroll-mt-20 overflow-x-clip border-t border-border px-4 py-20 sm:px-6 sm:py-28 lg:px-8"
     >
       <div
         className="pointer-events-none absolute left-1/2 top-1/2 h-96 w-96 -translate-x-1/2 -translate-y-1/2 rounded-full opacity-[0.07] blur-[120px]"
@@ -85,7 +85,7 @@ export function Contact() {
                 </a>
 
                 <div
-                  className="mt-3 flex items-end gap-2 pl-4"
+                  className="mt-3 flex max-w-full flex-wrap items-end gap-2 pl-0 sm:pl-4"
                   aria-hidden="true"
                 >
                   <svg
@@ -116,7 +116,7 @@ export function Contact() {
               </div>
             </div>
 
-            <div className="mt-4 overflow-hidden rounded-xl border border-border bg-[#0d1117] p-4 font-mono text-xs leading-relaxed sm:mt-2 sm:p-5 sm:text-sm">
+            <div className="mt-4 overflow-hidden rounded-xl border border-border bg-[#0d1117] p-4 font-mono text-xs leading-relaxed break-words [overflow-wrap:anywhere] sm:mt-2 sm:p-5 sm:text-sm">
               <p>
                 <span className="text-[#ff7b72]">if</span>{" "}
                 <span className="text-[#f0883e]">(</span>
@@ -175,7 +175,7 @@ export function Contact() {
               <iframe
                 src={calendarEmbedUrl}
                 title={t("calendarTitle")}
-                className="block h-[520px] w-full border-0 sm:h-[560px]"
+                className="block h-[520px] max-w-full w-full border-0 sm:h-[560px]"
                 loading="lazy"
               />
             ) : (

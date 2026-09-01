@@ -15,7 +15,7 @@ export function AboutStats() {
   return (
     <section
       id="tech-specs"
-      className="relative scroll-mt-20 border-t border-border px-4 py-20 sm:px-6 sm:py-28 lg:px-8"
+      className="relative scroll-mt-20 overflow-x-clip border-t border-border px-4 py-20 sm:px-6 sm:py-28 lg:px-8"
     >
       <div
         className="pointer-events-none absolute -right-20 top-1/3 h-72 w-72 rounded-full opacity-10 blur-[100px]"
@@ -34,7 +34,7 @@ export function AboutStats() {
           {statEntries.map(([key, stat]) => (
             <div
               key={key}
-              className="overflow-hidden rounded-2xl border border-border bg-[#0d1117] font-mono text-sm"
+              className="overflow-hidden rounded-2xl border border-border bg-[#0d1117] font-mono text-sm break-words [overflow-wrap:anywhere]"
             >
               <div className="border-b border-border px-4 py-2.5 text-sm font-semibold text-[var(--accent-hero)] sm:px-5 sm:py-3 sm:text-base">
                 {stat.label}
