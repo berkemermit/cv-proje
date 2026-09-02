@@ -14,8 +14,8 @@
   "hero": {
     "sloganBefore": "Hey, I'm",
     "name": "Berke",
-    "tagline": "I understand the problem, pick the right language and tools, and ship the solution fast.",
-    "taglineExtra": "I write clean, readable code and get things done without unnecessary delay. I deliver on time.",
+    "tagline": "Software engineering student aiming to solve complex processes with simple, sustainable code.",
+    "taglineExtra": "I focus on backend-heavy full stack development and keep pushing to improve in that area.",
     "cta": "See my work"
   },
   "badges": {
@@ -23,7 +23,7 @@
     "freelance": "Available for freelance",
     "location": "Ankara, Turkey",
     "busy": "Currently busy",
-    "studying": "Girne University — Software Engineering",
+    "studying": "Girne University — Software Engineering (final year)",
     "openSource": "Contributing to open source"
   },
   "bento": {
@@ -50,7 +50,7 @@
   "about": {
     "label": "About",
     "title": "A bit about me",
-    "subtitle": "Software Engineering student at Girne University · Ankara",
+    "subtitle": "Girne University · Final-year Software Engineering · Ankara",
     "paragraphs": [
       "I'm studying software engineering and I write code to ship real products, not just for coursework. In summer 2025 I interned at 4B Software and built the corporate web panel for the Esnaf Kefalet project using PHP and MySQL.",
       "During my software internship at the Ministry of Industry and Technology of Türkiye, I gained hands-on experience in backend systems and database management. Throughout the process I learned API development with Java and Spring Boot, data management with PostgreSQL, and tools like Docker — directly in the field, on real enterprise projects.",
@@ -74,7 +74,7 @@
       },
       "problemSolving": {
         "label": "Problem solving",
-        "value": "I first understand the problem, break it into smaller parts, then solve it.",
+        "value": "If I don't know it, I learn it. If I'm stuck, I dig in — I don't give up.",
         "comment": "// understand → decompose → solve"
       },
       "languages": {

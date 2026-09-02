@@ -14,8 +14,8 @@
   "hero": {
     "sloganBefore": "Selam, ben",
     "name": "Berke",
-    "tagline": "Problemi anlar, doğru dili ve aracı seçer, çözümü hızlıca hayata geçiririm.",
-    "taglineExtra": "Temiz ve okunabilir kod yazar, işi gereksiz uzatmadan sonuca ulaştırırım. Zamanında teslim ederim.",
+    "tagline": "Karmaşık süreçleri sade ve sürdürülebilir kod yapısıyla çözmeyi hedefleyen bir yazılım mühendisliği öğrencisiyim.",
+    "taglineExtra": "Backend ağırlıklı full stack geliştirme üzerine çalışıyor, kendimi bu alanda geliştirmeye devam ediyorum.",
     "cta": "Projelerime bak"
   },
   "badges": {
@@ -23,7 +23,7 @@
     "freelance": "Freelance iş alıyor",
     "location": "Ankara",
     "busy": "Şu an meşgulüm",
-    "studying": "Girne Üniversitesi — Yazılım Mühendisliği",
+    "studying": "Girne Üniversitesi — Yazılım Mühendisliği (son sınıf)",
     "openSource": "Open source katkıda bulunuyorum"
   },
   "bento": {
@@ -50,7 +50,7 @@
   "about": {
     "label": "Hakkımda",
     "title": "Kısaca ben",
-    "subtitle": "Girne Üniversitesi Yazılım Mühendisliği öğrencisi · Ankara",
+    "subtitle": "Girne Üniversitesi · Yazılım Mühendisliği son sınıf · Ankara",
     "paragraphs": [
       "Yazılım mühendisliği okuyorum; kodu sadece ders için değil, gerçek iş çıktısı üretmek için yazıyorum. 2025 yazında 4B Yazılım'da staj yaptım; Esnaf Kefalet projesinde PHP ve MySQL ile kurumsal bir web paneli geliştirdim.",
       "T.C. Sanayi ve Teknoloji Bakanlığı'nda tamamladığım yazılım stajımda backend sistemleri ve veritabanı yönetimi üzerine pratik deneyim kazandım. Süreç boyunca Java ve Spring Boot ile API geliştirme, PostgreSQL ile veri yönetimi ve Docker gibi araçların kullanımını kurumsal projeler üzerinden doğrudan sahada öğrendim.",
@@ -74,7 +74,7 @@
       },
       "problemSolving": {
         "label": "Problem çözme",
-        "value": "Problemi önce anlarım, küçük parçalara böler, sonra çözerim.",
+        "value": "Bilmiyorsam öğrenirim, takılırsam araştırırım — pes etmem.",
         "comment": "// understand → decompose → solve"
       },
       "languages": {
