@@ -89,89 +89,36 @@ export function Contact() {
               </a>
             </div>
 
-            <div className="mt-8 overflow-hidden rounded-2xl border border-[var(--accent-contact)]/35 bg-[#0d1117] shadow-lg shadow-[var(--accent-contact)]/10">
-              <div className="flex flex-wrap items-center gap-3 border-b border-white/10 bg-[#161b22] px-4 py-4 sm:px-5 sm:py-5">
-                <div className="flex items-center gap-1.5">
-                  <span className="h-3 w-3 rounded-full bg-[#ff5f57]" />
-                  <span className="h-3 w-3 rounded-full bg-[#febc2e]" />
-                  <span className="h-3 w-3 rounded-full bg-[#28c804]" />
-                </div>
-                <span className="font-display text-base font-bold text-[var(--accent-contact)] sm:text-xl">
-                  {t("phoneFallbackTitle")}
-                </span>
-                <span className="font-mono text-xs text-muted sm:ml-auto sm:text-sm">
-                  {t("phoneFallbackFile")}
-                </span>
+            <div className="mt-8 grid gap-3 sm:grid-cols-2">
+              <div className="rounded-xl border border-border bg-white/[0.02] p-4">
+                <p className="text-xs font-semibold uppercase tracking-wide text-[var(--accent-contact)]">
+                  {t("phonePathMailLabel")}
+                </p>
+                <p className="mt-2 text-sm leading-relaxed text-muted">
+                  {t("phonePathMailDesc")}
+                </p>
+                <a
+                  href={`mailto:${email}`}
+                  className="mt-3 inline-block text-sm font-medium text-[var(--accent-contact)] underline-offset-4 hover:underline"
+                >
+                  {email}
+                </a>
               </div>
 
-              <div className="space-y-1.5 p-5 font-mono text-sm leading-7 break-words [overflow-wrap:anywhere] sm:p-6 sm:text-base sm:leading-8">
-                <p>
-                  <span className="text-[#ff7b72]">func</span>{" "}
-                  <span className="text-[#d2a8ff]">iletisim</span>
-                  <span className="text-[#f0883e]">()</span>{" "}
-                  <span className="text-fg">{"{"}</span>
+              <div className="rounded-xl border border-border bg-white/[0.02] p-4">
+                <p className="text-xs font-semibold uppercase tracking-wide text-[var(--accent-contact)]">
+                  {t("phonePathCallLabel")}
                 </p>
-                <p className="pl-4">
-                  <span className="text-[#79c0ff]">email</span>{" "}
-                  <span className="text-fg">:=</span>{" "}
-                  <span className="text-[#a5d6ff]">&quot;{email}&quot;</span>
-                  <span className="text-fg">;</span>
+                <p className="mt-2 text-sm leading-relaxed text-muted">
+                  {t("phonePathCallDesc")}
                 </p>
-                <p className="pl-4">
-                  <span className="text-[#ff7b72]">if</span>{" "}
-                  <span className="text-[#f0883e]">!</span>
-                  <span className="text-[#a5d6ff]">mailYoğunluğu</span>{" "}
-                  <span className="text-[#ff7b72]">&amp;&amp;</span>{" "}
-                  <span className="text-[#a5d6ff]">cevapGeldi</span>{" "}
-                  <span className="text-fg">{"{"}</span>
-                </p>
-                <p className="pl-8 text-base text-[#c9d1d9] sm:text-lg">
-                  {"// "}
-                  {t("phoneCodeComment1")}
-                </p>
-                <p className="pl-8">
-                  <span className="text-[#d2a8ff]">emailGonder</span>
-                  <span className="text-[#f0883e]">(</span>
-                  <span className="text-[#79c0ff]">email</span>
-                  <span className="text-[#f0883e]">)</span>
-                  <span className="text-fg">;</span>
-                </p>
-                <p className="pl-4">
-                  <span className="text-fg">{"}"}</span>{" "}
-                  <span className="text-[#ff7b72]">else</span>{" "}
-                  <span className="text-fg">{"{"}</span>
-                </p>
-                <p className="pl-8 text-base text-[#c9d1d9] sm:text-lg">
-                  {t("phoneJokeComment")}
-                </p>
-                <p className="pl-8 text-base sm:text-lg">
-                  <span className="text-[#79c0ff]">telefon</span>{" "}
-                  <span className="text-fg">:=</span>{" "}
-                  <a
-                    href={`tel:${phoneTel}`}
-                    className="text-xl font-bold text-[var(--accent-contact)] underline-offset-4 transition-colors hover:text-[var(--accent-contact)]/80 hover:underline sm:text-2xl"
-                  >
-                    &quot;{phoneNumber}&quot;
-                  </a>
-                  <span className="text-fg">;</span>
-                </p>
-                <p className="pl-8 text-[#8b949e] sm:text-base">
-                  {"// "}
-                  {t("phoneJokeElse")}
-                </p>
-                <p className="pl-8">
-                  <span className="text-[#d2a8ff]">{t("phoneJokeAssign")}</span>
-                  <span className="text-[#f0883e]">(</span>
-                  <span className="text-[#79c0ff]">telefon</span>
-                  <span className="text-[#f0883e]">)</span>
-                  <span className="text-fg">;</span>
-                </p>
-                <p className="pl-4">
-                  <span className="text-fg">{"}"}</span>
-                </p>
-                <p>
-                  <span className="text-fg">{"}"}</span>
-                </p>
+                <a
+                  href={`tel:${phoneTel}`}
+                  aria-label={t("phoneCallAria", { number: phoneNumber })}
+                  className="mt-3 inline-block text-base font-bold text-[var(--accent-contact)] underline decoration-[var(--accent-contact)] decoration-2 underline-offset-4 transition-colors hover:text-[var(--accent-contact)]/80"
+                >
+                  {phoneNumber}
+                </a>
               </div>
             </div>
 

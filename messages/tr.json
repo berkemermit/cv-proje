@@ -39,7 +39,58 @@
       "learning": "Öğreniyorum",
       "academic": "Akademik"
     },
-    "techSummary": "{total} teknoloji, nasıl öğrenildiği ile belirtilmiştir.",
+    "techSummary": "{total} teknoloji — detay için birine tıkla.",
+    "techSelectAria": "{name} hakkında bilgi göster",
+    "techDetails": {
+      "php": {
+        "what": "Sunucu tarafında web uygulaması geliştirmek için kullanılan programlama dili.",
+        "usedIn": "4B Yazılım stajında Esnaf Kefalet web panelini PHP ile geliştirdim."
+      },
+      "mysql": {
+        "what": "İlişkisel veritabanı — verileri tablolarda saklar ve SQL ile yönetirsin.",
+        "usedIn": "Esnaf Kefalet projesinde kullanıcı ve kayıt verilerini MySQL'de tuttum."
+      },
+      "javascript": {
+        "what": "Web'de etkileşimli arayüz ve sunucu tarafı (Node) için kullanılan dil.",
+        "usedIn": "Akıllı Dosyalama masaüstü uygulamasında arayüz mantığını JS ile yazdım."
+      },
+      "css": {
+        "what": "Web sayfalarının görünümünü, renk ve yerleşimini düzenleyen stil dili.",
+        "usedIn": "Staj projelerinde ve kişisel web arayüzlerinde kullandım."
+      },
+      "html": {
+        "what": "Web sayfalarının iskeletini oluşturan markup dili.",
+        "usedIn": "Panel ve proje arayüzlerinde temel yapı için kullandım."
+      },
+      "flutter": {
+        "what": "Tek kod tabanıyla mobil (ve web/desktop) uygulama geliştirme framework'ü.",
+        "usedIn": "Kuponum mobil oyun projesini Flutter ile geliştirdim."
+      },
+      "dart": {
+        "what": "Flutter'ın kullandığı, tip güvenli programlama dili.",
+        "usedIn": "Kuponum projesinde uygulama mantığını Dart ile yazdım."
+      },
+      "electron": {
+        "what": "Web teknolojileriyle masaüstü uygulaması yapmayı sağlayan framework.",
+        "usedIn": "Akıllı Dosyalama masaüstü uygulamasını Electron ile geliştirdim."
+      },
+      "nextjs": {
+        "what": "React tabanlı, hızlı ve SEO dostu web sitesi framework'ü.",
+        "usedIn": "Bu portföy sitesini Next.js ile geliştiriyorum."
+      },
+      "typescript": {
+        "what": "JavaScript'e tip güvenliği ekleyen üst küme dil.",
+        "usedIn": "Portföy projesinde ve modern web geliştirmede öğreniyorum."
+      },
+      "docker": {
+        "what": "Uygulamaları izole konteynerlerde çalıştırmaya yarayan platform.",
+        "usedIn": "Bakanlık stajında PostgreSQL test ortamını Docker ile kurup kullandım."
+      },
+      "cpp": {
+        "what": "Performans odaklı, sistem seviyesine yakın programlama dili.",
+        "usedIn": "Üniversite derslerinde veri yapıları ve algoritma çalışmalarında kullandım."
+      }
+    },
     "locationLabel": "Konum & Saat",
     "experienceLabel": "Sektör deneyimi",
     "experienceUnit": "Yıl+",
@@ -52,8 +103,8 @@
     "title": "Kısaca ben",
     "subtitle": "Girne Üniversitesi · Yazılım Mühendisliği son sınıf · Ankara",
     "paragraphs": [
-      "Yazılım mühendisliği okuyorum; kodu sadece ders için değil, gerçek iş çıktısı üretmek için yazıyorum. 2025 yazında 4B Yazılım'da staj yaptım; Esnaf Kefalet projesinde PHP ve MySQL ile kurumsal bir web paneli geliştirdim.",
-      "T.C. Sanayi ve Teknoloji Bakanlığı'nda tamamladığım yazılım stajımda backend sistemleri ve veritabanı yönetimi üzerine pratik deneyim kazandım. Süreç boyunca Java ve Spring Boot ile API geliştirme, PostgreSQL ile veri yönetimi ve Docker gibi araçların kullanımını kurumsal projeler üzerinden doğrudan sahada öğrendim.",
+      "2023'te Girne Üniversitesi Yazılım Mühendisliği bölümünü tam burslu kazandım; şu an son sınıftayım. 2025 yazında 4B Yazılım'da staj yaptım; Esnaf Kefalet projesinde PHP ve MySQL ile kurumsal bir web paneli geliştirdim.",
+      "2026 yazında T.C. Sanayi ve Teknoloji Bakanlığı'nda tamamladığım yazılım stajımda backend sistemleri ve veritabanı yönetimi üzerine pratik deneyim kazandım. Süreç boyunca Java ve Spring Boot ile API geliştirme, PostgreSQL ile veri yönetimi ve Docker gibi araçların kullanımını kurumsal projeler üzerinden doğrudan sahada öğrendim.",
       "Her iki stajda da gerçek iş ortamında çalıştım — deadline, ekip iletişimi ve teslim kültürünü orada edindim. Şu an kişisel projelerim ve modern web teknolojileriyle kendimi geliştirmeye devam ediyorum. Yeni projelere ve iş birliklerine açığım."
     ]
   },
@@ -78,9 +129,9 @@
         "comment": "// understand → decompose → solve"
       },
       "languages": {
-        "label": "Diller",
-        "value": "Türkçe · İngilizce (B1)",
-        "comment": "// communication.languages = [\"tr\", \"en\"]"
+        "label": "İlgi odağım",
+        "value": "Backend geliştirme — API, veritabanı ve sunucu tarafı.",
+        "comment": "// focus = backend"
       },
       "stack": {
         "label": "Asıl teknoloji",
@@ -200,12 +251,11 @@
     "copyEmail": "E-postayı kopyala",
     "copied": "Kopyalandı!",
     "sendEmail": "E-posta gönder",
-    "phoneFallbackTitle": "Cevap gelmezse",
-    "phoneFallbackFile": "contact.go",
-    "phoneCodeComment1": "önce mail dene",
-    "phoneJokeComment": "// mail yoğunluğundan iletişime geçemiyorsak",
-    "phoneJokeElse": "bu numarayı arayabilirsiniz",
-    "phoneJokeAssign": "arayabilirsiniz",
+    "phonePathMailLabel": "1 · mail ile",
+    "phonePathMailDesc": "E-posta gönder — genelde en hızlı yol bu.",
+    "phonePathCallLabel": "2 · telefon",
+    "phonePathCallDesc": "Bu numaradan ulaşabilirsin.",
+    "phoneCallAria": "{number} numarasını ara",
     "calendarTitle": "Takvimden randevu al",
     "calendarDesc": "15 dakikalık tanışma görüşmesi ayarlayın.",
     "calendarPlaceholder": "Takvim henüz bağlı değil.",

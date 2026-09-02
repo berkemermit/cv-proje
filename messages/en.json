@@ -39,7 +39,58 @@
       "learning": "Learning",
       "academic": "Academic"
     },
-    "techSummary": "{total} technologies — how each was learned is indicated below.",
+    "techSummary": "{total} technologies — tap one for details.",
+    "techSelectAria": "Show info about {name}",
+    "techDetails": {
+      "php": {
+        "what": "A server-side language for building web applications.",
+        "usedIn": "Built the Esnaf Kefalet web panel with PHP during my 4B Software internship."
+      },
+      "mysql": {
+        "what": "A relational database — stores data in tables and is managed with SQL.",
+        "usedIn": "Used MySQL for user and record data in the Esnaf Kefalet project."
+      },
+      "javascript": {
+        "what": "Language for interactive web UIs and server-side logic (Node).",
+        "usedIn": "Wrote UI logic in JS for the Smart Filing desktop app."
+      },
+      "css": {
+        "what": "Stylesheet language for layout, colors, and visual design on the web.",
+        "usedIn": "Used in internship projects and personal web interfaces."
+      },
+      "html": {
+        "what": "Markup language that defines the structure of web pages.",
+        "usedIn": "Used for page structure in panel and project UIs."
+      },
+      "flutter": {
+        "what": "Framework for building mobile (and web/desktop) apps from one codebase.",
+        "usedIn": "Developed the Kuponum mobile game with Flutter."
+      },
+      "dart": {
+        "what": "The typed programming language used by Flutter.",
+        "usedIn": "Wrote application logic in Dart for the Kuponum project."
+      },
+      "electron": {
+        "what": "Framework for building desktop apps with web technologies.",
+        "usedIn": "Built the Smart Filing desktop app with Electron."
+      },
+      "nextjs": {
+        "what": "React-based framework for fast, SEO-friendly websites.",
+        "usedIn": "Building this portfolio site with Next.js."
+      },
+      "typescript": {
+        "what": "A typed superset of JavaScript for safer, clearer code.",
+        "usedIn": "Learning and using it in this portfolio and modern web work."
+      },
+      "docker": {
+        "what": "Platform for running applications in isolated containers.",
+        "usedIn": "Set up and used a PostgreSQL test environment with Docker during my ministry internship."
+      },
+      "cpp": {
+        "what": "Performance-oriented language close to system level.",
+        "usedIn": "Used in university courses for data structures and algorithms."
+      }
+    },
     "locationLabel": "Location & Time",
     "experienceLabel": "Industry experience",
     "experienceUnit": "Yr+",
@@ -52,8 +103,8 @@
     "title": "A bit about me",
     "subtitle": "Girne University · Final-year Software Engineering · Ankara",
     "paragraphs": [
-      "I'm studying software engineering and I write code to ship real products, not just for coursework. In summer 2025 I interned at 4B Software and built the corporate web panel for the Esnaf Kefalet project using PHP and MySQL.",
-      "During my software internship at the Ministry of Industry and Technology of Türkiye, I gained hands-on experience in backend systems and database management. Throughout the process I learned API development with Java and Spring Boot, data management with PostgreSQL, and tools like Docker — directly in the field, on real enterprise projects.",
+      "In 2023 I earned a full scholarship to Software Engineering at Girne University; I'm in my final year now. In summer 2025 I interned at 4B Software and built the corporate web panel for the Esnaf Kefalet project using PHP and MySQL.",
+      "In summer 2026, during my software internship at the Ministry of Industry and Technology of Türkiye, I gained hands-on experience in backend systems and database management. Throughout the process I learned API development with Java and Spring Boot, data management with PostgreSQL, and tools like Docker — directly in the field, on real enterprise projects.",
       "Both internships taught me deadlines, team communication, and delivery culture in real work environments. These days I'm growing through personal projects and modern web tech. I'm open to new projects and collaborations."
     ]
   },
@@ -78,9 +129,9 @@
         "comment": "// understand → decompose → solve"
       },
       "languages": {
-        "label": "Languages",
-        "value": "Turkish · English (B1)",
-        "comment": "// communication.languages = [\"tr\", \"en\"]"
+        "label": "Focus area",
+        "value": "Backend development — APIs, databases, and server-side work.",
+        "comment": "// focus = backend"
       },
       "stack": {
         "label": "Primary technology",
@@ -200,12 +251,11 @@
     "copyEmail": "Copy email",
     "copied": "Copied!",
     "sendEmail": "Send email",
-    "phoneFallbackTitle": "No reply?",
-    "phoneFallbackFile": "contact.go",
-    "phoneCodeComment1": "try email first",
-    "phoneJokeComment": "// if inbox overload blocks email contact",
-    "phoneJokeElse": "you can call this number instead",
-    "phoneJokeAssign": "callMe",
+    "phonePathMailLabel": "1 · via email",
+    "phonePathMailDesc": "Send an email — usually the fastest way.",
+    "phonePathCallLabel": "2 · phone",
+    "phonePathCallDesc": "You can reach me on this number.",
+    "phoneCallAria": "Call {number}",
     "calendarTitle": "Book a meeting",
     "calendarDesc": "Schedule a 15-minute intro call.",
     "calendarPlaceholder": "Calendar not connected yet.",

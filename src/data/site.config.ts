@@ -89,19 +89,28 @@ export const featuredProject = {
 
 export type TechStatus = "used" | "learning" | "academic";
 
-export const techStack = [
-  { name: "PHP", color: "#a78bfa", abbr: "PHP", status: "used" as TechStatus },
-  { name: "MySQL", color: "#22c55e", abbr: "SQL", status: "used" as TechStatus },
-  { name: "JavaScript", color: "#facc15", abbr: "JS", status: "academic" as TechStatus },
-  { name: "CSS", color: "#06b6d4", abbr: "CSS", status: "academic" as TechStatus },
-  { name: "HTML", color: "#f97316", abbr: "HTML", status: "academic" as TechStatus },
-  { name: "Flutter", color: "#38bdf8", abbr: "Fl", status: "used" as TechStatus },
-  { name: "Dart", color: "#60a5fa", abbr: "Dt", status: "used" as TechStatus },
-  { name: "Electron", color: "#94a3b8", abbr: "El", status: "used" as TechStatus },
-  { name: "Next.js", color: "#ffffff", abbr: "N", status: "learning" as TechStatus },
-  { name: "TypeScript", color: "#3b82f6", abbr: "TS", status: "learning" as TechStatus },
-  { name: "C++", color: "#61dafb", abbr: "C++", status: "academic" as TechStatus },
-] as const;
+export type TechStackItem = {
+  id: string;
+  name: string;
+  color: string;
+  abbr: string;
+  status: TechStatus;
+};
+
+export const techStack: TechStackItem[] = [
+  { id: "php", name: "PHP", color: "#a78bfa", abbr: "PHP", status: "used" },
+  { id: "mysql", name: "MySQL", color: "#22c55e", abbr: "SQL", status: "used" },
+  { id: "javascript", name: "JavaScript", color: "#facc15", abbr: "JS", status: "academic" },
+  { id: "css", name: "CSS", color: "#06b6d4", abbr: "CSS", status: "academic" },
+  { id: "html", name: "HTML", color: "#f97316", abbr: "HTML", status: "academic" },
+  { id: "flutter", name: "Flutter", color: "#38bdf8", abbr: "Fl", status: "used" },
+  { id: "dart", name: "Dart", color: "#60a5fa", abbr: "Dt", status: "used" },
+  { id: "electron", name: "Electron", color: "#94a3b8", abbr: "El", status: "used" },
+  { id: "nextjs", name: "Next.js", color: "#ffffff", abbr: "N", status: "learning" },
+  { id: "typescript", name: "TypeScript", color: "#3b82f6", abbr: "TS", status: "learning" },
+  { id: "docker", name: "Docker", color: "#2496ed", abbr: "Dk", status: "used" },
+  { id: "cpp", name: "C++", color: "#61dafb", abbr: "C++", status: "academic" },
+];
 
 export const phoneNumber = "05323179892";
 export const phoneTel = "+905323179892";
